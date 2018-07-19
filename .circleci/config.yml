@@ -10,9 +10,3 @@ jobs:
     steps: 
       - run: ssh -o "StrictHostKeyChecking no" $SSH_USER@$SSH_HOST "~/deploy.sh"
 
-workflows:
-  version: 2
-  deploy:
-    jobs:      
-      - deploy:
-       
