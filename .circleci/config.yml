@@ -4,9 +4,17 @@
 #
 version: 2
 jobs:
+  build:
+    steps:
+      - run: echo "ik heb geen build"
   deploy:
     machine:
       enabled: true
     steps: 
       - run: ssh -o "StrictHostKeyChecking no" $SSH_USER@$SSH_HOST "~/deploy.sh"
-
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - build
+      - deploy
