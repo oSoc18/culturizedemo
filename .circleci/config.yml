@@ -5,6 +5,8 @@
 version: 2
 jobs:
   build:
+    docker:
+      - image: circleci/node:8.11-stretch
     steps:
       - run: echo "ik heb geen build"
   deploy:
