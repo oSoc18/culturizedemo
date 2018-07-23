@@ -1,8 +1,7 @@
 #!/bin/bash
-
-# Go to master branch version
-cd ~/build/SmartFlanders
+cd ~/culturizedemo
 git reset --hard
-rm package-lock.json
 git pull
 git checkout master
+cd /var/www/html
+cp -r ~/culturizedemo/* 
