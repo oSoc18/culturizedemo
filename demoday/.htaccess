@@ -1,5 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine on
 
-RewriteRule ^google$ https://google.com [R=302,NC,NE,L]
-RewriteRule ^youtube$ https://youtube.com [R=302,NC,NE,L]
+RewriteRule ^demo/google$ https://google.com [R=302,NC,NE,L]
+RewriteRule ^demo/youtube$ https://youtube.com [R=302,NC,NE,L]
