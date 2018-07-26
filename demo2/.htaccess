@@ -2,3 +2,4 @@ Options +FollowSymLinks
 RewriteEngine on
 
 RewriteRule ^1999-A$ https://github.com/oSoc18/culturizedemo [R=302,NC,NE,L]
+RewriteRule ^2000$ https://google.com/ [R=302,NC,NE,L]
