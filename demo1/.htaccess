@@ -4,5 +4,5 @@ RewriteEngine on
 RewriteRule ^work/20697$ http://www.kunstenerfgoed.be/nl/wat-doen-we-beschermen-cultuurgoederen/topstukkenlijst/het-laatste-avondmaal-0 [R=302,NC,NE,L]
 RewriteRule ^work/16384$ http://www.kunstenerfgoed.be/nl/wat-doen-we-beschermen-cultuurgoederen/topstukkenlijst/uur-en-kalenderwijzerplaat [R=302,NC,NE,L]
 RewriteRule ^work/14699$ http://www.kunstenerfgoed.be/nl/wat-doen-we-beschermen-cultuurgoederen/topstukkenlijst/liber-boonen\%E2%80%9D-memorieboek-antiquitates [R=302,NC,NE,L]
-RewriteRule ^work/16778$ http://www.lukasweb.be/nl/foto/heilige-familie-omringd-door-engelen-0; http://www.lukasweb.be/nl/foto/heilige-familie-omringd-door-engelen [R=302,NC,NE,L]
-RewriteRule ^work/21735$ http://www.lukasweb.be/nl/foto/geen-titel-2396; http://www.lukasweb.be/nl/foto/geen-titel-2397 [R=302,NC,NE,L]
+RewriteRule ^work/16778$ http://www.lukasweb.be/nl/foto/heilige-familie-omringd-door-engelen-0 [R=302,NC,NE,L]
+RewriteRule ^work/21735$ http://www.lukasweb.be/nl/foto/geen-titel-2396 [R=302,NC,NE,L]
