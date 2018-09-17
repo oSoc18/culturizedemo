@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^data/brechtvdv$ https://brechtvdv.github.io [R=302,NC,NE,L]
